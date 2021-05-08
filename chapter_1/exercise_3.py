@@ -1,0 +1,2 @@
+name, ch = input("enter your name and a letter of your name:  ").split(",")
+print(f"Length of your name, {name} is {len(name)} and frequecy of letter ({ch}) is {name.strip().upper().count(ch.strip().upper())} ")
